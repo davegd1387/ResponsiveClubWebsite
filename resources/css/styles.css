@@ -1,0 +1,173 @@
+    html {
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    body {
+        width: 95%;
+        background-color: black;
+        color: white;
+        font-family: "Coiny", sans-serif;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .header {
+        width: 95%;
+        position: fixed;
+        top: 0;
+        background-color: black;
+        z-index: 5;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        padding: 1em;
+        border-bottom: .3em solid rgb(0, 132, 255);
+    }
+    /********************************/
+    /*test Borders
+    
+    .header {
+        border: .2em solid red;
+    }
+    
+    a {
+        border: .2em solid purple;
+    }
+    
+    .dummy-header {
+        border: .2em solid white;
+    }
+    
+    .banner {
+        border: .2em solid pink;
+    }
+    
+    .member-car-container {
+        border: .2em solid pink;
+    }
+    
+    li {
+        border: .2em solid yellow;
+    }
+    
+    ul {
+        border: .2em solid green;
+    }
+    
+    #about {
+        border: .2em solid pink;
+    }
+    /*END - test Borders*/
+    /**********************************/
+    
+    a {
+        text-decoration: none;
+        padding-right: 3em;
+    }
+    
+    a:link {
+        color: honeydew;
+    }
+    
+    a:visited {
+        color: rgb(0, 132, 255);
+    }
+    
+    a:hover {
+        font-size: 2rem;
+    }
+    
+    a:active {
+        color: white;
+    }
+    
+    .dummy-header {
+        width: 100%;
+        position: relative;
+        top: 0;
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+    #main {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 90%;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding: 2em 0;
+    }
+    
+    .banner {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1.em;
+        min-width: 375px;
+    }
+    
+    #roadster-2000 {
+        width: 60%;
+        max-width: 100%;
+        padding-top: 2em;
+        min-width: 300px;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    .member-car-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 75%;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding: 2em 0;
+    }
+    
+    .member-car {
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: column;
+        min-width: 30%;
+    }
+    
+    .member-car img {
+        max-width: 100%;
+        min-width: 300px;
+    }
+    
+    #about {
+        width: 40%;
+        min-width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: "Bad Script", cursive;
+        border: .2em solid rgb(0, 132, 255);
+        border-radius: .75em;
+        color: rgb(0, 132, 255);
+        background-color: white;
+    }
+    
+    #history {
+        margin: 0 auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+    }
+    
+    .m-car-title {
+        margin: 0 auto;
+        text-align: center;
+        padding: .75em;
+    }
